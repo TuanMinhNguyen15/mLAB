@@ -1,5 +1,0 @@
-<launch>
-    <include file="$(find f1tenth_simulator)/launch/simulator.launch"/>
-    <node pkg="tuan_roslab" type="car_scan.py" name="car_scan" args="-d $(find tuan_roslab)/src/lidar_display.rviz"/>
-    
-</launch>
